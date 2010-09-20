@@ -30,8 +30,7 @@
 %%
 
 -module(rabbit_channel).
--include("rabbit_framing.hrl").
--include("rabbit.hrl").
+-include("amqp_client.hrl").
 
 -behaviour(gen_server2).
 

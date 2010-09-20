@@ -30,7 +30,7 @@
 %%
 
 -module(rabbit_framing_channel).
--include("rabbit.hrl").
+-include("amqp_client.hrl").
 
 -export([start_link/3, process/2, shutdown/1]).
 

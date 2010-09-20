@@ -30,8 +30,7 @@
 %%
 
 -module(rabbit_reader).
--include("rabbit_framing.hrl").
--include("rabbit.hrl").
+-include("amqp_client.hrl").
 
 -export([start_link/3, info_keys/0, info/1, info/2, shutdown/2]).
 

@@ -30,8 +30,8 @@
 %%
 
 -module(rabbit_writer).
--include("rabbit.hrl").
--include("rabbit_framing.hrl").
+-include("amqp_client.hrl").
+
 
 -export([start/5, start_link/5, mainloop/2, mainloop1/2]).
 -export([send_command/2, send_command/3, send_command_sync/2,

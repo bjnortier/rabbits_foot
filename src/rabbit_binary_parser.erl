@@ -31,7 +31,7 @@
 
 -module(rabbit_binary_parser).
 
--include("rabbit.hrl").
+-include("amqp_client.hrl").
 
 -export([parse_table/1, parse_properties/2]).
 -export([ensure_content_decoded/1, clear_decoded_content/1]).

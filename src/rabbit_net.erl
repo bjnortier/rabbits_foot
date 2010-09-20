@@ -30,7 +30,7 @@
 %%
 
 -module(rabbit_net).
--include("rabbit.hrl").
+-include("amqp_client.hrl").
 
 -export([async_recv/3, close/1, controlling_process/2,
         getstat/2, peername/1, port_command/2,

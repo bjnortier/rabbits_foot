@@ -30,8 +30,7 @@
 %%
 
 -module(rabbit_misc).
--include("rabbit.hrl").
--include("rabbit_framing.hrl").
+-include("amqp_client.hrl").
 
 -include_lib("kernel/include/file.hrl").
 

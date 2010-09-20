@@ -30,8 +30,7 @@
 %%
 
 -module(rabbit_basic).
--include("rabbit.hrl").
--include("rabbit_framing.hrl").
+-include("amqp_client.hrl").
 
 -export([publish/1, message/4, properties/1, delivery/4]).
 -export([publish/4, publish/7]).

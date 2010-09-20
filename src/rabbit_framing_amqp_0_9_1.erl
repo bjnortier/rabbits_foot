@@ -31,7 +31,7 @@
 %%   Contributor(s): ______________________________________.
 %%
 -module(rabbit_framing_amqp_0_9_1).
--include("rabbit_framing.hrl").
+-include("amqp_client.hrl").
 
 -export([version/0]).
 -export([lookup_method_name/1]).

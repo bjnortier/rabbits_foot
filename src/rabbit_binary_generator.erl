@@ -30,8 +30,7 @@
 %%
 
 -module(rabbit_binary_generator).
--include("rabbit_framing.hrl").
--include("rabbit.hrl").
+-include("amqp_client.hrl").
 
 % EMPTY_CONTENT_BODY_FRAME_SIZE, 8 = 1 + 2 + 4 + 1
 %  - 1 byte of frame type
