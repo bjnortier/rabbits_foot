@@ -1,6 +1,6 @@
 {application,rabbits_foot,
              [{description,[]},
-              {vsn,"1"},
+              {vsn,"0.1"},
               {registered,[]},
               {applications,[kernel,stdlib]},
               {mod,{rabbits_foot_app,[]}},
